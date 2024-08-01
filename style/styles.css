@@ -76,14 +76,6 @@ p {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.award {
-    color: grey;
-}
-
-.language {
-    color: #B90E0A;
-}
-
 a[href] {
     color: black;
     text-decoration: underline;
@@ -95,98 +87,11 @@ a[href]:hover {
     background-color: lightgrey;
 }
 
-hr {
-    border-width: 1px !important;
-    border: solid;
-}
-
-h4 {
-    margin-top: 5px !important;
-    font-size: 1rem !important;
-    margin-bottom: 5px;
-    font-weight: normal;
-}
-
-.caption {
-    font-style: italic;
-    font-weight: normal;
-    color: grey;
-}
-
-.timeline {
-    color: grey;
-    text-transform: uppercase;
-    margin-top: 0px;
-    margin-bottom: 5px;
-}
-
-.experience-paragraph {
-    margin-top: 0px;
-    margin-bottom: 20px;
-}
-
-.portfolio-clip {
-    height: fit-content; 
-    margin-top: 20px;  
-    margin-bottom: 20px;
-    transition: box-shadow .3s;
-    background-color: #FFFFFF;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: calc(33% - 24px);
-    border: 2px solid black;
-    display: inline-block;
-    vertical-align: top;
-    pointer-events: all;
-    text-decoration: none !important;
-    background-color: none !important;
-}
-
-.portfolio-clip:hover {
-    box-shadow: 0 1px 6px #666;
-}
-
-.portfolio-anchor {
-    background-color: transparent !important;
-}
-
-.in-clip-link {
-    color: #91a6ff !important;
-    font-weight: bold !important;
-}
-
-.in-clip-link:hover {
-    color: #1f487e !important;
-}
-
-.portfolio-master-grid {
-    width: 100%;
-    height: fit-content;
-    float: left;
-    margin-top: 10px;
-    margin-bottom: 0px;
-    padding-bottom: 10px;
-    background-color: #FFFFFF;
-}
-
 .clip-image {
     width: calc(100% - 20px);
     border-radius: 10px;
     max-height: 150px;
     object-fit: cover;
-}
-
-.portfolio-grid {
-    display: block !important;
-}
-
-.clip-anchor {
-    display: inline-block;
-    width: 33%;
-}
-
-.body-row {
-    width: calc(100% - 0px);
 }
 
 .profile-pic {
@@ -214,41 +119,18 @@ h4 {
     margin-left: 10px;
 }
 
-
 .column {
     float: left;
 }
 
-.col-margin {
-    width: 10%;
-    height: 100px;
-}
-
-.col-main {
-    width: 80%;
-}
-
-.header {
-    width: 100%;
-    height: 235px;
-}
-
-.header-banner {
-    margin-left: 10px;
-}
-
 .social-icon:hover {
     background-color: transparent !important;
-    color: orangered;
+    color: orangered !important;
 }
 
 .social-icon {
     color: inherit !important;
     text-decoration: none !important;
-}
-
-.social-icon:hover {
-    color: orangered !important;
 }
 
 .page-body {
@@ -265,11 +147,6 @@ h4 {
 
 #clips-column {
     width: 75%;
-}
-
-.body-column {
-    padding: 10px;
-    box-sizing: border-box;
 }
 
 .social-header {
